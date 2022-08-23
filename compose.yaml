@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web: 
+    image: wordpress
+    ports:
+    - "80:80"
+
+
+# docker-compose -f compose.yaml  up -d 
